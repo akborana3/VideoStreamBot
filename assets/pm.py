@@ -41,7 +41,7 @@ async def nopm(client, message):
         Config.msg[message.chat.id]={"msg":m.updates[1].message.id, "s":message.message_id}
     except BotInlineDisabled:
         LOGGER.error(f"Inline Mode for @{Config.BOT_USERNAME} is not enabled. Enable from @Botfather to enable PM Permit !")
-        await message.reply_text(f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n@zautekm | @zautebot 👑</b>")
+        await message.reply_text(f"{Config.REPLY_MESSAGE}\n\n<b>© Powered By : \n 𝒍𝒐𝒇𝒊 𝒅𝒆𝒇𝒊 | 𝑳𝑶𝑭𝑰 𝑱𝑼𝑲𝑬𝑩𝑶𝑿👑</b>")
     except Exception as e:
         LOGGER.error(e)
         pass
